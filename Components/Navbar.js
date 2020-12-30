@@ -1,7 +1,8 @@
 import { Navbar, Brand, Start, End, Item } from '@davidcraig/react-bulma'
 
 const pages = [
-  { name: 'Rules', slug: 'rules' }
+  { name: 'Rules', slug: 'rules' },
+  { name: 'Officers', slug: 'officers' }
 ]
 
 export default function Navigation() {
