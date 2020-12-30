@@ -10,6 +10,11 @@ export default function Navigation() {
           title='Raider.IO'
           target='_blank'
         />
+        <Item
+          href='https://www.wowprogress.com/guild/eu/silvermoon/Not+Safe+for+Azeroth'
+          title='WoWProgress'
+          target='_blank'
+        />
       </End>
     </Navbar>
   )
