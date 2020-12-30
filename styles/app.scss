@@ -1,9 +1,84 @@
+@import '~bulma';
+@import '@davidcraig/wow';
+
 :root {
     --dark-mode-text: #ececec;
-    --dark-mode-bg-1: #131313;
+    --dark-mode-bg-1: #161616;
+    --dark-mode-bg-2: #111;
+    --alliance-bg-1: #002f6d;
+    --alliance-bg-2: #001e44;
 }
 
 html, body {
-    background: var(--dark-mode-bg-1);
-    color: var(--dark-mode-text);
+  --theme-bg: var(--alliance-bg-1);
+  --theme-bg-2: var(--alliance-bg-2);
+  --theme-text: var(--dark-mode-text);
+}
+
+// @media (prefers-color-scheme: dark) {
+//     html, body {
+//         --theme-bg: var(--dark-mode-bg-1);
+//         --theme-bg-2: var(--dark-mode-bg-2);
+//         --theme-text: var(--dark-mode-text);
+//     }
+// }
+
+html, body {
+  background: var(--theme-bg);
+  color: var(--theme-text);
+}
+
+.navbar {
+  background: var(--theme-bg-2);
+
+  a {
+    color: var(--theme-text);
+  }
+}
+
+.content {
+  padding-top: 40px;
+
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: var(--theme-text);
+  }
+
+  .card {
+    border: 1px solid var(--theme-bg-2);
+    border-radius: 0;
+  }
+
+  .card, .card-content {
+    background: transparent;
+  }
+
+  .card-header {
+    background: var(--theme-bg-2);
+    .card-header-title {
+      color: var(--theme-text);
+    }
+  }
+
+  table {
+    td, th {
+      border: 0;
+    }
+  }
+}
+
+.table.is-striped tbody tr:not(.is-selected):nth-child(even) {
+  background: var(--theme-bg-2);
+}
+
+.recruitment {
+  .card-content {
+    padding: 0;
+
+    .table {
+      background: transparent;
+    }
+  }
+
+  .recruitment-open { color: #11c700; }
+  .recruitment-closed { color: #920000; }
 }
