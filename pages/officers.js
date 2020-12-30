@@ -51,13 +51,11 @@ export default function Officers() {
       </Head>
 
       <Columns>
-        
         <Column class='is-two-thirds'>
           <main>
             <h1 className='h1'>Officers</h1>
-            <ItemGrid>
+            <ItemGrid columns={2}>
               {officers.map(officer => {
-                console.log(officer)
                 return <Card title={`${officer.alias} (${officer.real})`} className={officer.main.class.css}></Card>
               })}
             </ItemGrid>
