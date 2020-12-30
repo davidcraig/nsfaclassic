@@ -10,6 +10,7 @@ const officers = [
     real: 'Dave',
     alias: 'Sniper',
     rank: 'Fuhrer',
+    bio: '',
     main: {
       class: wowClasses.Druid,
       roles: ['Tank', 'DPS', 'Healer'],
@@ -20,6 +21,7 @@ const officers = [
     real: 'Chris',
     alias: 'Sonofalich / Holyfunbags',
     rank: 'Officer',
+    bio: '',
     main: {
       class: wowClasses.DeathKnight
     }
@@ -28,6 +30,7 @@ const officers = [
     real: 'Rob',
     alias: 'Chopstick',
     rank: 'Officer',
+    bio: '',
     main: {
       class: wowClasses.Hunter
     }
@@ -36,6 +39,7 @@ const officers = [
     real: 'Nigel',
     alias: '',
     rank: 'Officer',
+    bio: '',
     main: {
       class: wowClasses.Priest
     }
