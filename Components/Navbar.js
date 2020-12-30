@@ -8,6 +8,7 @@ export default function Navigation() {
         <Item
           href='https://raider.io/guilds/eu/silvermoon/Not%20Safe%20for%20Azeroth'
           title='Raider.IO'
+          target='_blank'
         />
       </End>
     </Navbar>
