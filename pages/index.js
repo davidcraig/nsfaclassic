@@ -4,6 +4,13 @@ import Recruitment from '../Components/Widgets/Recruitment'
 import Progress from '../Components/Widgets/Progress'
 
 export default function Home() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "url": "https://notsafeforazeroth.netlify.app/",
+    "name": "Not Safe for Azeroth",
+  }
+
   return (
     <div>
       <Head>
@@ -12,7 +19,6 @@ export default function Home() {
       </Head>
 
       <Columns>
-        
         <Column class='is-two-thirds'>
           <main>
             <h1 className='h1'>&lt;Not Safe for Azeroth&gt;</h1>
@@ -24,6 +30,11 @@ export default function Home() {
           <Progress />
         </Column>
       </Columns>
+
+      <script
+        type='application/ld+json'
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
     </div>
   )
 }
