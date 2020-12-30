@@ -1,0 +1,47 @@
+.content {
+  .widget {
+    margin-bottom: 1em;
+
+    .card-content {
+      padding: 0;
+
+      .table {
+        background: transparent;
+      }
+    }
+  }
+
+  .widget-recruitment {
+    .recruitment-open { color: var(--theme-good); }
+    .recruitment-closed { color: var(--theme-bad); }
+  }
+
+  .widget-progression {
+    .card-content {
+      .table {
+        td {
+          color: var(--theme-text);
+        }
+
+        tr {
+          &.alive {
+            td {
+              color: var(--theme-bad, red);
+            }
+          }
+          &.normal,
+          &.heroic,
+          &.mythic {
+            td {
+              color: var(--theme-good, green);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+

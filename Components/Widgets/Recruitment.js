@@ -30,11 +30,11 @@ function getStatusClass (classStatus) {
 
 export default function Recruitment() {
   return (
-    <Card title='Recruitment' className='recruitment'>
+    <Card title='Recruitment' className='widget widget-recruitment'>
       <table className='table is-narrow is-striped'>
         <tbody>
           {classStatuses.map(s => {
-            return <tr>
+            return <tr key={s.css}>
               <td className={s.css}>{s.name}</td>
               <td className={getStatusClass(s)}>{s.status}</td>
             </tr>

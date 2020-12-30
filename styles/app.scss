@@ -13,7 +13,11 @@ html, body {
   --theme-bg: var(--alliance-bg-1);
   --theme-bg-2: var(--alliance-bg-2);
   --theme-text: var(--dark-mode-text);
+  --theme-good: #11c700;
+  --theme-bad: #920000;
 }
+
+@import './widgets.scss';
 
 // @media (prefers-color-scheme: dark) {
 //     html, body {
@@ -68,17 +72,4 @@ html, body {
 
 .table.is-striped tbody tr:not(.is-selected):nth-child(even) {
   background: var(--theme-bg-2);
-}
-
-.recruitment {
-  .card-content {
-    padding: 0;
-
-    .table {
-      background: transparent;
-    }
-  }
-
-  .recruitment-open { color: #11c700; }
-  .recruitment-closed { color: #920000; }
 }
