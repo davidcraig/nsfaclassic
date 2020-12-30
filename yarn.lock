@@ -91,9 +91,9 @@
     to-fast-properties "^2.0.0"
 
 "@davidcraig/react-bulma@^1.0.9":
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/@davidcraig/react-bulma/-/react-bulma-1.0.12.tgz#5a9299debdb5554567f3267cdfc592f03d146c70"
-  integrity sha512-iwUHV5/piJIn05edHTofqqdGnqLDnNvIxTMcuZyFVgsd/qxPQWKeAriZQ7E2rYJpDiJ9xl1JVgyEQBocK57phA==
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@davidcraig/react-bulma/-/react-bulma-1.0.14.tgz#4473a75588fcaca52d60abb7fc93672fc000d864"
+  integrity sha512-sJ8a9ipm9pLV4KPWP9CBJXYwfOFKR0BiJffylL3RrQ3F2+qJXrECZm/oWhngrkkRLJI5gej+ddamBGQge5fzAw==
 
 "@davidcraig/react@^1.0.2":
   version "1.0.2"
