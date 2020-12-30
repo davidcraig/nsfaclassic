@@ -1,9 +1,18 @@
 import { Navbar, Brand, Start, End, Item } from '@davidcraig/react-bulma'
 
+const pages = [
+  { name: 'Rules', slug: 'rules' }
+]
+
 export default function Navigation() {
   return (
     <Navbar>
       <Brand title='Not Safe for Azeroth' />
+      <Start>
+        {pages.map(page => {
+          return <Item title={page.name} href={page.slug} />
+        })}
+      </Start>
       <End>
         <Item
           href='https://raider.io/guilds/eu/silvermoon/Not%20Safe%20for%20Azeroth'
