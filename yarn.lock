@@ -90,6 +90,21 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@davidcraig/react-bulma@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@davidcraig/react-bulma/-/react-bulma-1.0.9.tgz#113a32c44e5d1d65c43deaf3728320fecd4c151b"
+  integrity sha512-/3D/2aQ8Ca+L02Le+SOnp0eH7ytSoeY3lp1eDt3EvYD4KEWF/flxMUBlMAapdnMQQDERoWCk59LorrLhoN7Pmw==
+
+"@davidcraig/react@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@davidcraig/react/-/react-1.0.2.tgz#8057a18df7c8151d29532bcd88786d060181f312"
+  integrity sha512-UqlYjaG35PtzBwi4ob0PQm1WKsZQMZM+E8iSrjqAr0L9vpogQgSt+cn6Qp0LjbIYDvE2/WJedsDqBmVEb9kV4w==
+
+"@davidcraig/wow@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@davidcraig/wow/-/wow-1.0.1.tgz#855702fdc322510dd7c50c4c8d211bd8f0f8e3a0"
+  integrity sha512-ulvc6JeAvYV3V6hB+bns9FA6+9rerNC40IWiUQWEzQDz6L9xo6ekSdQEFSCMoPyj6B9F84WVjxLBmEL1UKPTDg==
+
 "@hapi/accept@5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@hapi/accept/-/accept-5.0.1.tgz#068553e867f0f63225a506ed74e899441af53e10"

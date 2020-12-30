@@ -8,6 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@davidcraig/react": "^1.0.2",
+    "@davidcraig/react-bulma": "^1.0.9",
+    "@davidcraig/wow": "^1.0.1",
     "bulma": "^0.9.1",
     "next": "10.0.4",
     "react": "17.0.1",
