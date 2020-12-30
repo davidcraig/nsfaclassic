@@ -9,6 +9,7 @@ export default function Home() {
     "@type": "Organization",
     "url": "https://notsafeforazeroth.netlify.app/",
     "name": "Not Safe for Azeroth",
+    "description": "A World of Warcraft guild on Silvermoon EU."
   }
 
   return (
