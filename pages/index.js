@@ -2,7 +2,6 @@ import Head from 'next/head'
 import { Column, Columns } from '@davidcraig/react-bulma'
 import Recruitment from '../Components/Widgets/Recruitment'
 import Progress from '../Components/Widgets/Progress'
-// import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (

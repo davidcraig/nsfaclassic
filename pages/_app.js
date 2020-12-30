@@ -1,5 +1,4 @@
 import { Navbar, Brand } from '@davidcraig/react-bulma'
-import '../styles/globals.css'
 import '../styles/app.scss'
 
 
