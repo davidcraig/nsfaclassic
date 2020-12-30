@@ -1,13 +1,10 @@
-import { Navbar, Brand } from '@davidcraig/react-bulma'
 import '../styles/app.scss'
-
+import Navbar from '../Components/Navbar'
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Navbar>
-        <Brand title='Not Safe for Azeroth' />
-      </Navbar>
+      <Navbar />
       <div className='container'>
         <div className='content'>
           <Component {...pageProps} />
