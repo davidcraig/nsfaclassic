@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import { Column, Columns, ItemGrid } from '@davidcraig/react-bulma'
-import Recruitment from '../Components/Widgets/Recruitment'
-import Progress from '../Components/Widgets/Progress'
+import Recruitment from '../../Components/Widgets/Recruitment'
+import Progress from '../../Components/Widgets/Progress'
 import { Card, TabbedContent } from '@davidcraig/react-bulma'
-import { castleNathria } from '../data/shadowlands/raids'
+import { castleNathria } from '../../data/shadowlands/raids'
 
 const SHOW_MYTHIC = false
 

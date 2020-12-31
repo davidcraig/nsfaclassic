@@ -21,7 +21,7 @@ const pages = [
   },
   {
     name: 'Shadowlands', pages: [
-      { name: 'Castle Nathria', slug: '/nathria' },
+      { name: 'Castle Nathria', slug: '/shadowlands/nathria' },
     ]
   }
 ]
