@@ -28,7 +28,7 @@ export default function Navigation() {
       <Start>
         {pages.map(page => {
           if (page.pages) {
-            return <Dropdown title={page.name}>
+            return <Dropdown key={page.name} title={page.name}>
               {page.pages.map(dropdownPage => {
                 let itemCssClass = ''
                 if (page.name === 'Classes') {
@@ -38,7 +38,7 @@ export default function Navigation() {
               })}
             </Dropdown>
           }
-          return <Item title={page.name} href={page.slug} />
+          return <Item key={page.slug} title={page.name} href={page.slug} />
         })}
       </Start>
       <End>
