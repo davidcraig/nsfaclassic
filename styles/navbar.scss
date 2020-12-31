@@ -1,0 +1,57 @@
+.navbar {
+  background: var(--theme-bg-2);
+
+  a {
+    color: var(--theme-text);
+  }
+}
+
+.navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link,
+.navbar-dropdown {
+  background: var(--theme-bg-2);
+}
+
+.navbar-dropdown a.navbar-item:focus, .navbar-dropdown a.navbar-item:hover,
+a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active
+{
+  background: var(--theme-bg);
+}
+
+.navbar-item {
+  &.mage {
+    color: var(--wow-class-mage) !important;
+  }
+  &.priest {
+    color: var(--wow-class-priest) !important;
+  }
+  &.warlock {
+    color: var(--wow-class-warlock) !important;
+  }
+  &.druid {
+    color: var(--wow-class-druid) !important;
+  }
+  &.rogue {
+    color: var(--wow-class-rogue) !important;
+  }
+  &.monk {
+    color: var(--wow-class-monk) !important;
+  }
+  &.demonhunter {
+    color: var(--wow-class-demonhunter) !important;
+  }
+  &.hunter {
+    color: var(--wow-class-hunter) !important;
+  }
+  &.shaman {
+    color: var(--wow-class-shaman) !important;
+  }
+  &.warrior {
+    color: var(--wow-class-warrior) !important;
+  }
+  &.paladin {
+    color: var(--wow-class-paladin) !important;
+  }
+  &.deathknight {
+    color: var(--wow-class-deathknight) !important;
+  }
+}

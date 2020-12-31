@@ -1,5 +1,6 @@
 @import '~bulma';
 @import '@davidcraig/wow';
+@import 'navbar';
 
 :root {
     --dark-mode-text: #ececec;
@@ -30,14 +31,6 @@ html, body {
 html, body {
   background: var(--theme-bg);
   color: var(--theme-text);
-}
-
-.navbar {
-  background: var(--theme-bg-2);
-
-  a {
-    color: var(--theme-text);
-  }
 }
 
 .content {
