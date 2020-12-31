@@ -20,14 +20,6 @@ html, body {
 
 @import './widgets.scss';
 
-// @media (prefers-color-scheme: dark) {
-//     html, body {
-//         --theme-bg: var(--dark-mode-bg-1);
-//         --theme-bg-2: var(--dark-mode-bg-2);
-//         --theme-text: var(--dark-mode-text);
-//     }
-// }
-
 html, body {
   background: var(--theme-bg);
   color: var(--theme-text);
