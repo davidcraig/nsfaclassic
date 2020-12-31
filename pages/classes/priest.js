@@ -1,11 +1,10 @@
-import Page from '../../Components/PageWithWidgets'
+import Page from '../../Components/WoWClassPage'
+import { Priest } from '../../data/wow-classes'
 
 const DISCORD = ['https://discord.gg/WarcraftPriests', 'https://discord.gg/focusedwill']
 
-export default function Priest() {
+export default function ClassPriest() {
   return (
-    <Page>
-      <h1 className='h1 fg-priest'>Priest</h1>
-    </Page>
+    <Page class={Priest} discord={DISCORD} />
   )
 }

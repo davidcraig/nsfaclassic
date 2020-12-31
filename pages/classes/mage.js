@@ -1,11 +1,10 @@
-import Page from '../../Components/PageWithWidgets'
+import Page from '../../Components/WoWClassPage'
+import { Mage } from '../../data/wow-classes'
 
 const DISCORD = 'https://discord.gg/WzYCnbg'
 
-export default function Mage() {
+export default function ClassMage() {
   return (
-    <Page>
-      <h1 className='h1 fg-mage'>Mage</h1>
-    </Page>
+    <Page class={Mage} discord={DISCORD} />
   )
 }

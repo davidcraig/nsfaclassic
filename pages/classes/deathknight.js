@@ -1,11 +1,10 @@
-import Page from '../../Components/PageWithWidgets'
+import Page from '../../Components/WoWClassPage'
+import { DeathKnight } from '../../data/wow-classes'
 
 const DISCORD = 'https://discord.gg/acherus'
 
-export default function DeathKnight() {
+export default function ClassDeathKnight() {
   return (
-    <Page>
-      <h1 className='h1 fg-deathknight'>Death Knight</h1>
-    </Page>
+    <Page class={DeathKnight} discord={DISCORD} />
   )
 }

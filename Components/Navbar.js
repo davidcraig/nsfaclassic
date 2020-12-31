@@ -30,7 +30,6 @@ export default function Navigation() {
           if (page.pages) {
             return <Dropdown title={page.name}>
               {page.pages.map(dropdownPage => {
-                console.log(page.name)
                 let itemCssClass = ''
                 if (page.name === 'Classes') {
                   itemCssClass = dropdownPage.slug

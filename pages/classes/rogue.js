@@ -1,11 +1,10 @@
-import Page from '../../Components/PageWithWidgets'
+import Page from '../../Components/WoWClassPage'
+import { Rogue } from '../../data/wow-classes'
 
 const DISCORD = 'https://discord.gg/0h08tydxoNhfDVZf'
 
-export default function Rogue() {
+export default function ClassRogue() {
   return (
-    <Page>
-      <h1 className='h1 fg-rogue'>Rogue</h1>
-    </Page>
+    <Page class={Rogue} discord={DISCORD} />
   )
 }

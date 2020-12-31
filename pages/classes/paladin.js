@@ -1,11 +1,10 @@
-import Page from '../../Components/PageWithWidgets'
+import Page from '../../Components/WoWClassPage'
+import { Paladin } from '../../data/wow-classes'
 
 const DISCORD = 'https://discord.gg/hammerofwrath'
 
-export default function Paladin() {
+export default function ClassPaladin() {
   return (
-    <Page>
-      <h1 className='h1 fg-paladin'>Paladin</h1>
-    </Page>
+    <Page class={Paladin} discord={DISCORD} />
   )
 }
