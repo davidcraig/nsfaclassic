@@ -32,7 +32,7 @@ export default function Navigation() {
               {page.pages.map(dropdownPage => {
                 let itemCssClass = ''
                 if (page.name === 'Classes') {
-                  itemCssClass = dropdownPage.slug
+                  itemCssClass = dropdownPage.slug.replace('/classes/', '')
                 }
                 return <Item className={itemCssClass} key={dropdownPage.slug} title={dropdownPage.name} href={dropdownPage.slug} />
               })}
