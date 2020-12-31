@@ -18,6 +18,11 @@ const pages = [
       { name: 'Paladin', slug: '/classes/paladin' },
       { name: 'Death Knight', slug: '/classes/deathknight' }
     ]
+  },
+  {
+    name: 'Shadowlands', pages: [
+      { name: 'Castle Nathria', slug: '/nathria' },
+    ]
   }
 ]
 
