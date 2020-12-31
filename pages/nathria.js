@@ -7,11 +7,6 @@ import { castleNathria } from '../data/shadowlands/raids'
 
 const SHOW_MYTHIC = false
 
-const videos = {
-  normal_heroic: [],
-  mythic: [],
-}
-
 const NormalHeroicVideos = {
   title: 'Normal / Heroic',
   content: (
