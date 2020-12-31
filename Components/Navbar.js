@@ -1,22 +1,22 @@
 import { Navbar, Brand, Start, End, Item, Dropdown } from '@davidcraig/react-bulma'
 
 const pages = [
-  { name: 'Rules', slug: 'rules' },
-  { name: 'Officers', slug: 'officers' },
+  { name: 'Rules', slug: '/rules' },
+  { name: 'Officers', slug: '/officers' },
   {
     name: 'Classes', pages: [
-      { name: 'Priest', slug: 'priest' },
-      { name: 'Mage', slug: 'mage' },
-      { name: 'Warlock', slug: 'warlock' },
-      { name: 'Druid', slug: 'druid' },
-      { name: 'Rogue', slug: 'rogue' },
-      { name: 'Monk', slug: 'monk' },
-      { name: 'Demon Hunter', slug: 'demonhunter' },
-      { name: 'Hunter', slug: 'hunter' },
-      { name: 'Shaman', slug: 'shaman' },
-      { name: 'Warrior', slug: 'warrior' },
-      { name: 'Paladin', slug: 'paladin' },
-      { name: 'Death Knight', slug: 'deathknight' }
+      { name: 'Priest', slug: '/classes/priest' },
+      { name: 'Mage', slug: '/classes/mage' },
+      { name: 'Warlock', slug: '/classes/warlock' },
+      { name: 'Druid', slug: '/classes/druid' },
+      { name: 'Rogue', slug: '/classes/rogue' },
+      { name: 'Monk', slug: '/classes/monk' },
+      { name: 'Demon Hunter', slug: '/classes/demonhunter' },
+      { name: 'Hunter', slug: '/classes/hunter' },
+      { name: 'Shaman', slug: '/classes/shaman' },
+      { name: 'Warrior', slug: '/classes/warrior' },
+      { name: 'Paladin', slug: '/classes/paladin' },
+      { name: 'Death Knight', slug: '/classes/deathknight' }
     ]
   }
 ]
