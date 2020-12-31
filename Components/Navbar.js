@@ -30,6 +30,7 @@ export default function Navigation() {
           if (page.pages) {
             return <Dropdown key={page.name} title={page.name}>
               {page.pages.map(dropdownPage => {
+                // Use wow class colours for class page links.
                 let itemCssClass = ''
                 if (page.name === 'Classes') {
                   itemCssClass = dropdownPage.slug.replace('/classes/', '')
