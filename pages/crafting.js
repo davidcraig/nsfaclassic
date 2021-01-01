@@ -43,7 +43,6 @@ function RenderLegendaries(profession) {
                 <td>
                   {
                     lego.legendary.materials[`rank_`+lego.rank].map(mat => {
-                      console.log(mat)
                       return (
                         <>
                         <a href={`https://www.wowhead.com/item=${mat.type.itemId}`}>{mat.type.name}</a> x{mat.quantity}<span className='space'> </span>
