@@ -73,7 +73,7 @@ export default function Crafting() {
         <Column class='is-two-thirds'>
           <main>
             <h1 className='h1'>Crafting</h1>
-            <h2 className='h2'>Legendaries</h2>
+            <h2 className='h2 fg-legendary-important'>Legendaries</h2>
             {RenderProfessionTabs()}
           </main>
         </Column>

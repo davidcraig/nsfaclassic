@@ -8,11 +8,13 @@
     --dark-mode-bg-2: #111;
     --alliance-bg-1: #002f6d;
     --alliance-bg-2: #001e44;
+    --alliance-alt-1: #4968aa;
 }
 
 html, body {
   --theme-bg: var(--alliance-bg-1);
   --theme-bg-2: var(--alliance-bg-2);
+  --theme-alt-1: var(--alliance-alt-1);
   --theme-text: var(--dark-mode-text);
   --theme-good: #11c700;
   --theme-bad: #bb0000;
@@ -134,4 +136,8 @@ html, body {
 
 .table.is-striped tbody tr:not(.is-selected):nth-child(even) {
   background: var(--theme-bg-2);
+}
+
+.tabs a {
+  color: var(--theme-alt-1);
 }
