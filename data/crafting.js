@@ -53,6 +53,15 @@ export const legendaries = {
           { legendary: Leatherworking.UMBRAHIDE_ARMGUARDS, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
           { legendary: Leatherworking.UMBRAHIDE_GAUNTLETS, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
           { legendary: Leatherworking.UMBRAHIDE_LEGGINGS, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+
+          { legendary: Leatherworking.BONESHATTER_WAISTGUARD, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Leatherworking.BONESHATTER_VEST, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Leatherworking.BONESHATTER_TREADS, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Leatherworking.BONESHATTER_PAULDRONS, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Leatherworking.BONESHATTER_HELM, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Leatherworking.BONESHATTER_GREAVES, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Leatherworking.BONESHATTER_GAUNTLETS, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Leatherworking.BONESHATTER_ARMGUARDS, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
         ]
       }
     ]
