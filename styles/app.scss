@@ -1,5 +1,5 @@
 @import '~bulma';
-@import '@davidcraig/wow';
+@import '@davidcraig/wow/wow.css';
 @import 'navbar';
 
 :root {
@@ -33,7 +33,7 @@ html, body {
   }
 
   .tabs {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
 
     ul {
       margin-left: 0;
@@ -120,6 +120,12 @@ html, body {
   }
 
   table {
+    background: transparent;
+
+    thead th, thead td {
+      color: var(--theme-text);
+    }
+
     td, th {
       border: 0;
     }

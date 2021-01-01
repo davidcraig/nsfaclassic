@@ -23,7 +23,8 @@ const pages = [
     name: 'Shadowlands', pages: [
       { name: 'Castle Nathria', slug: '/shadowlands/nathria' },
     ]
-  }
+  },
+  { name: 'Crafting', slug: '/crafting' },
 ]
 
 export default function Navigation() {
