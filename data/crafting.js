@@ -1,5 +1,6 @@
 import { findByName } from './characters'
 import Tailoring from './shadowlands/crafting/legendaries/tailoring'
+import Leatherworking from './shadowlands/crafting/legendaries/leatherworking'
 
 export const guildCrafting = {
   tailoring: { name: 'Tailoring', crafters: [ findByName() ] },
@@ -39,7 +40,22 @@ export const legendaries = {
     name: 'Blacksmithing'
   },
   leatherworking: {
-    name: 'Leatherworking'
+    name: 'Leatherworking',
+    crafters: [
+      {
+        crafter: findByName('Tyriant'),
+        legendaries: [
+          { legendary: Leatherworking.UMBRAHIDE_WAISTGUARD, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Leatherworking.UMBRAHIDE_VEST, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Leatherworking.UMBRAHIDE_TREADS, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Leatherworking.UMBRAHIDE_PAULDRONS, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Leatherworking.UMBRAHIDE_HELM, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Leatherworking.UMBRAHIDE_ARMGUARDS, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Leatherworking.UMBRAHIDE_GAUNTLETS, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Leatherworking.UMBRAHIDE_LEGGINGS, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+        ]
+      }
+    ]
   },
   jewelcrafting: {
     name: 'Jewelcrafting'

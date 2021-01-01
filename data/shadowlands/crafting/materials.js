@@ -22,9 +22,37 @@ export const ORBOREAL_SHARD = {
   itemId: 178787
 }
 
+export const DESOLATE_LEATHER = {
+  constant: 'DESOLATE_LEATHER',
+  name: 'Desolate Leather',
+  itemId: 172089
+}
+
+export const HEAVY_DESOLATE_LEATHER = {
+  constant: 'HEAVY_DESOLATE_LEATHER',
+  name: 'Heavy Desolate Leather',
+  itemId: 172096
+}
+
+export const HEAVY_CALLOUS_HIDE = {
+  constant: 'HEAVY_CALLOUS_HIDE',
+  name: 'Heavy Callous Hide',
+  itemId: 172097
+}
+
+export const ENCHANTED_HEAVY_CALLOUS_HIDE = {
+  constant: 'ENCHANTED_HEAVY_CALLOUS_HIDE',
+  name: 'Enchanted Heavy Callous Hide',
+  itemId: 172438
+}
+
 export default {
   LIGHTLESS_SILK,
   ENCHANTED_LIGHTLESS_SILK,
   SHROUDED_CLOTH,
-  ORBOREAL_SHARD
+  ORBOREAL_SHARD,
+  HEAVY_CALLOUS_HIDE,
+  ENCHANTED_HEAVY_CALLOUS_HIDE,
+  DESOLATE_LEATHER,
+  HEAVY_DESOLATE_LEATHER
 }
