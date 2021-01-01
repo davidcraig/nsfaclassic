@@ -22,14 +22,15 @@ export const legendaries = {
       {
         crafter: findByName('Snipermagi'),
         legendaries: [
-          { legendary: Tailoring.GRIM_VEILED_BELT, rank: 1 },
-          { legendary: Tailoring.GRIM_VEILED_BRACERS, rank: 1 },
-          { legendary: Tailoring.GRIM_VEILED_CAPE, rank: 1 },
-          { legendary: Tailoring.GRIM_VEILED_HOOD, rank: 1 },
-          { legendary: Tailoring.GRIM_VEILED_MITTENS, rank: 1 },
-          { legendary: Tailoring.GRIM_VEILED_PANTS, rank: 1 },
-          { legendary: Tailoring.GRIM_VEILED_SANDALS, rank: 1 },
-          { legendary: Tailoring.GRIM_VEILED_SHOULDERS, rank: 1 },
+          { legendary: Tailoring.GRIM_VEILED_BELT, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Tailoring.GRIM_VEILED_BRACERS, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Tailoring.GRIM_VEILED_CAPE, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Tailoring.GRIM_VEILED_HOOD, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Tailoring.GRIM_VEILED_MITTENS, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Tailoring.GRIM_VEILED_PANTS, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Tailoring.GRIM_VEILED_SANDALS, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Tailoring.GRIM_VEILED_ROBE, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
+          { legendary: Tailoring.GRIM_VEILED_SHOULDERS, rank: 1, progress: { rank: 1, xp: 0, xpcap: 75 } },
         ]
       }
     ]
