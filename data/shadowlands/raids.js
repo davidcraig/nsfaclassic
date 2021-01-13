@@ -1,17 +1,17 @@
 export const castleNathria = [
   {
     name: 'Shriekwing', slug: 'cn-shriekwing',
-    normal: false, heroic: false, mythic: false,
+    normal: true, heroic: false, mythic: false,
     video: '72EI8HBaTAg', mythic_video: ''
   },
   {
     name: 'Huntsman Altimor', slug: 'cn-altimor',
-    normal: false, heroic: false, mythic: false,
+    normal: true, heroic: false, mythic: false,
     video: 'b5CDD6c_Itw', mythic_video: ''
   },
   {
     name: "Artificer Xy'mox", slug: 'cn-xymox',
-    normal: false, heroic: false, mythic: false,
+    normal: true, heroic: false, mythic: false,
     video: 'jlzc1aTdARU', mythic_video: ''
   },
   {
@@ -26,7 +26,7 @@ export const castleNathria = [
   },
   {
     name: 'Hungering Destroyer', slug: 'cn-hungering',
-    normal: false, heroic: false, mythic: false,
+    normal: true, heroic: false, mythic: false,
     video: 'IhKeirCeeRo', mythic_video: ''
   },
   {
