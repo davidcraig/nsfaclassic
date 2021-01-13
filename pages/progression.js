@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Column, Columns } from '@davidcraig/react-bulma'
+import { Column, Columns, TabbedContent } from '@davidcraig/react-bulma'
 import Recruitment from '../Components/Widgets/Recruitment'
 import Progress from '../Components/Widgets/Progress'
 import Timeline from '../Components/Timeline'
@@ -38,9 +38,21 @@ export default function Progression() {
           <main>
             <h1 className='h1'>Progression</h1>
 
-            <h2 className='h2'>Castle Nathria</h2>
-            <Timeline
-              entries={NathriaProgression}
+            <TabbedContent
+              content={
+                [
+                  {
+                    title: 'Castle Nathria',
+                    content: (
+                      <>
+                        <Timeline
+                          entries={NathriaProgression}
+                        />
+                      </>
+                    )
+                  }
+                ]
+              }
             />
           </main>
         </Column>
