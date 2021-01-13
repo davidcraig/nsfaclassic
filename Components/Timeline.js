@@ -2,7 +2,7 @@ import { Column, Columns } from '@davidcraig/react-bulma'
 
 function TimelineRow(date, content, even = true) {
   return (
-    <tr>
+    <tr key={`${date}-${content}`}>
       <td width='40%'>{even ? content : ''}</td>
       <td width='20%'>{date}</td>
       <td widht='40%'>{even ? '' : content}</td>
