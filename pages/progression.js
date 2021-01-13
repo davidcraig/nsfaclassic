@@ -4,6 +4,26 @@ import Recruitment from '../Components/Widgets/Recruitment'
 import Progress from '../Components/Widgets/Progress'
 import Timeline from '../Components/Timeline'
 
+const NathriaProgression = [
+  {
+    date: '1 Jan',
+    content: 'Shriekwing [N]'
+  },
+  {
+    date: '6 Jan',
+    content: (
+      <>
+        <span>Huntsman Altimore [N]</span><br/>
+        <span>Hungering Destroyer [N]</span>
+      </>
+    )
+  },
+  {
+    date: '8 Jan',
+    content: "Artificer Xy'mox [N]"
+  }
+]
+
 export default function Progression() {
   return (
     <div>
@@ -20,25 +40,7 @@ export default function Progression() {
 
             <h2 className='h2'>Castle Nathria</h2>
             <Timeline
-              entries={[
-                {
-                  date: '1 Jan',
-                  content: 'Shriekwing [N]'
-                },
-                {
-                  date: '6 Jan',
-                  content: (
-                    <>
-                      <span>Huntsman Altimore [N]</span><br/>
-                      <span>Hungering Destroyer [N]</span>
-                    </>
-                  )
-                },
-                {
-                  date: '8 Jan',
-                  content: "Artificer Xy'mox [N]"
-                }
-              ]}
+              entries={NathriaProgression}
             />
           </main>
         </Column>
