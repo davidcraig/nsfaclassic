@@ -112,6 +112,7 @@ html, body {
 
   .card, .card-content {
     background: transparent;
+    color: var(--theme-text);
   }
 
   .card-header {
@@ -140,4 +141,8 @@ html, body {
 
 .tabs a {
   color: var(--theme-alt-1);
+}
+
+a.spell {
+  color: yellow;
 }
