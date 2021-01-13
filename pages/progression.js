@@ -23,20 +23,20 @@ export default function Progression() {
               entries={[
                 {
                   date: '1 Jan',
-                  content: 'Shriekwing'
+                  content: 'Shriekwing [N]'
                 },
                 {
                   date: '6 Jan',
                   content: (
                     <>
-                      <span>Huntsman Altimore</span><br/>
-                      <span>Hungering Destroyer</span>
+                      <span>Huntsman Altimore [N]</span><br/>
+                      <span>Hungering Destroyer [N]</span>
                     </>
                   )
                 },
                 {
                   date: '8 Jan',
-                  content: "Artificer Xy'mox"
+                  content: "Artificer Xy'mox [N]"
                 }
               ]}
             />
