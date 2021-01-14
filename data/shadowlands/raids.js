@@ -30,8 +30,8 @@ export const castleNathria = [
     video: 'IhKeirCeeRo', mythic_video: ''
   },
   {
-    name: 'Lady Darkvein', slug: 'cn-darkvein',
-    normal: false, heroic: false, mythic: false,
+    name: 'Lady Innerva Darkvein', slug: 'cn-darkvein',
+    normal: true, heroic: false, mythic: false,
     video: 'Gsq5ffXyrrw', mythic_video: ''
   },
   {

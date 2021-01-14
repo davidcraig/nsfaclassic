@@ -21,6 +21,10 @@ const NathriaProgression = [
   {
     date: '8 Jan',
     content: "Artificer Xy'mox [N]"
+  },
+  {
+    date: '13 Jan',
+    content: "Lady Innerva Darkvein [N]"
   }
 ]
 
