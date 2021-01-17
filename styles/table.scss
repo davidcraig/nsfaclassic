@@ -1,0 +1,13 @@
+table, .content table {
+  background: transparent;
+
+  thead, tbody {
+    th, td {
+      color: var(--theme-text);
+    }
+  }
+
+  td, th {
+    border: 0;
+  }
+}
