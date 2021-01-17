@@ -7,6 +7,7 @@ const pages = [
       { name: 'Officers', slug: '/officers' },
       { name: 'Crafting', slug: '/crafting' },
       { name: 'Progression', slug: '/progression' },
+      { name: 'Logs', slug: '/logs' },
     ]
   }
 ]

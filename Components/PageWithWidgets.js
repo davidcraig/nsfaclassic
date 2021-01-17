@@ -4,10 +4,13 @@ import Recruitment from './Widgets/Recruitment'
 import Progress from './Widgets/Progress'
 
 function PageWithWidgets(props) {
+  let title = 'Not Safe for Azeroth'
+  if (props.title) { title += ' | ' + props.title }
+
   return (
     <div>
       <Head>
-        <title>Not Safe for Azeroth</title>
+        <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
