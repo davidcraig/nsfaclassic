@@ -5,6 +5,6 @@ const DISCORD = 'https://discord.gg/0onXDymd9Wpc2CEu'
 
 export default function ClassWarlock() {
   return (
-    <Page class={Warlock} discord={DISCORD} />
+    <Page title='Warlock' class={Warlock} discord={DISCORD} />
   )
 }

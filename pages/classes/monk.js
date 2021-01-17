@@ -7,7 +7,7 @@ const DISCORD = 'https://discord.gg/0dkfBMAxzTkWj21F'
 
 export default function ClassMonk() {
   return (
-    <Page class={Monk} discord={DISCORD}>
+    <Page title='Monk' class={Monk} discord={DISCORD}>
       <Columns>
         <Column>
           <Card

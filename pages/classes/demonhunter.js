@@ -5,7 +5,7 @@ const DISCORD = 'https://discord.gg/zGGkNGC'
 
 export default function ClassDemonHunter() {
   return (
-    <Page class={DemonHunter} discord={DISCORD}>
+    <Page title='Demon Hunter' class={DemonHunter} discord={DISCORD}>
     </Page>
   )
 }

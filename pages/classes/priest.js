@@ -5,6 +5,6 @@ const DISCORD = ['https://discord.gg/WarcraftPriests', 'https://discord.gg/focus
 
 export default function ClassPriest() {
   return (
-    <Page class={Priest} discord={DISCORD} />
+    <Page title='Priest' class={Priest} discord={DISCORD} />
   )
 }

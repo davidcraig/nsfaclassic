@@ -5,7 +5,7 @@ const DISCORD = 'https://discord.gg/Skyhold'
 
 export default function ClassWarrior() {
   return (
-    <Page class={Warrior} discord={DISCORD} />
+    <Page title='Warrior' class={Warrior} discord={DISCORD} />
   )
 }
 

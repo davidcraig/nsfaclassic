@@ -5,6 +5,6 @@ const DISCORD = 'https://discord.gg/0h08tydxoNhfDVZf'
 
 export default function ClassRogue() {
   return (
-    <Page class={Rogue} discord={DISCORD} />
+    <Page title='Rogue' class={Rogue} discord={DISCORD} />
   )
 }

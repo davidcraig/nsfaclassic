@@ -5,6 +5,6 @@ const DISCORD = 'https://discord.gg/WzYCnbg'
 
 export default function ClassMage() {
   return (
-    <Page class={Mage} discord={DISCORD} />
+    <Page title='Mage' class={Mage} discord={DISCORD} />
   )
 }

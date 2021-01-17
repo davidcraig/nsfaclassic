@@ -5,6 +5,6 @@ const DISCORD = 'https://discord.gg/acherus'
 
 export default function ClassDeathKnight() {
   return (
-    <Page class={DeathKnight} discord={DISCORD} />
+    <Page title='Death Knight' class={DeathKnight} discord={DISCORD} />
   )
 }

@@ -1,7 +1,5 @@
-import Head from 'next/head'
-import { Column, Columns, ItemGrid } from '@davidcraig/react-bulma'
-import Recruitment from '../Components/Widgets/Recruitment'
-import Progress from '../Components/Widgets/Progress'
+import { ItemGrid } from '@davidcraig/react-bulma'
+import PageWithWidgets from '../Components/PageWithWidgets'
 import { Card } from '@davidcraig/react-bulma/dist/Card/Card'
 import wowClasses from '../data/wow-classes'
 
@@ -43,33 +41,25 @@ const officers = [
     main: {
       class: wowClasses.Priest
     }
-  }
+  },
+  {
+    real: 'Jim',
+    alias: 'Drakulth',
+    rank: 'Officer',
+    bio: '',
+    main: {
+      class: wowClasses.DeathKnight
+    }
+  },
 ]
 
 export default function Officers() {
-  return (
-    <div>
-      <Head>
-        <title>Not Safe for Azeroth</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <Columns>
-        <Column class='is-two-thirds'>
-          <main>
-            <h1 className='h1'>Officers</h1>
-            <ItemGrid columns={2}>
-              {officers.map(officer => {
-                return <Card title={`${officer.alias} (${officer.real})`} className={officer.main.class.css}></Card>
-              })}
-            </ItemGrid>
-          </main>
-        </Column>
-        <Column>
-          <Recruitment />
-          <Progress />
-        </Column>
-      </Columns>
-    </div>
-  )
+  return <PageWithWidgets>
+    <h1 className='h1'>Officers</h1>
+    <ItemGrid columns={2}>
+      {officers.map(officer => {
+        return <Card title={`${officer.alias} (${officer.real})`} className={officer.main.class.css}></Card>
+      })}
+    </ItemGrid>
+  </PageWithWidgets>
 }

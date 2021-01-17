@@ -1,9 +1,6 @@
-import Head from 'next/head'
-import { Column, Columns, ItemGrid } from '@davidcraig/react-bulma'
-import Recruitment from '../Components/Widgets/Recruitment'
-import Progress from '../Components/Widgets/Progress'
 import crafting from '../data/crafting'
-import { TabbedContent } from '@davidcraig/react-bulma/dist/TabbedContent/TabbedContent'
+import PageWithWidgets from '../Components/PageWithWidgets'
+import { TabbedContent } from '@davidcraig/react-bulma'
 
 function RenderProfessionTabs() {
   const content = [
@@ -61,26 +58,9 @@ function RenderLegendaries(profession) {
 }
 
 export default function Crafting() {
-  return (
-    <div>
-      <Head>
-        <title>Not Safe for Azeroth</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <Columns>
-        <Column class='is-two-thirds'>
-          <main>
-            <h1 className='h1'>Crafting</h1>
-            <h2 className='h2 fg-legendary-important'>Legendaries</h2>
-            {RenderProfessionTabs()}
-          </main>
-        </Column>
-        <Column>
-          <Recruitment />
-          <Progress />
-        </Column>
-      </Columns>
-    </div>
-  )
+  return <PageWithWidgets title='Crafting'>
+    <h1 className='h1'>Crafting</h1>
+    <h2 className='h2 fg-legendary-important'>Legendaries</h2>
+    {RenderProfessionTabs()}
+  </PageWithWidgets>
 }

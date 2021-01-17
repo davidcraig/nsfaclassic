@@ -5,6 +5,6 @@ const DISCORD = ['https://discord.gg/0VcupJEQX0HuE5HH', 'https://discord.gg/AcTe
 
 export default function ClassShaman() {
   return (
-    <Page class={Shaman} discord={DISCORD} />
+    <Page title='Shaman' class={Shaman} discord={DISCORD} />
   )
 }

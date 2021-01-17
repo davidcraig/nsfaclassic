@@ -5,6 +5,6 @@ const DISCORD = 'https://discord.gg/hammerofwrath'
 
 export default function ClassPaladin() {
   return (
-    <Page class={Paladin} discord={DISCORD} />
+    <Page title='Paladin' class={Paladin} discord={DISCORD} />
   )
 }

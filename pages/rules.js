@@ -1,7 +1,4 @@
-import Head from 'next/head'
-import { Column, Columns } from '@davidcraig/react-bulma'
-import Recruitment from '../Components/Widgets/Recruitment'
-import Progress from '../Components/Widgets/Progress'
+import PageWithWidgets from '../Components/PageWithWidgets'
 
 const GUILD_RULES = [
   "English only, applies to both discord and guild chat.",
@@ -33,28 +30,10 @@ export default function Rules() {
   const raidRules = RulesSection('Raid Rules', RAID_RULES)
   // const otherRules = RulesSection('Other', OTHER_RULES)
 
-  return (
-    <div>
-      <Head>
-        <title>Not Safe for Azeroth</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+  return <PageWithWidgets title='Guild Rules'>
+    <h1 className='h1'>Rules</h1>
 
-      <Columns>
-        
-        <Column class='is-two-thirds'>
-          <main>
-            <h1 className='h1'>Rules</h1>
-
-            {guildRules}
-            {raidRules}
-          </main>
-        </Column>
-        <Column>
-          <Recruitment />
-          <Progress />
-        </Column>
-      </Columns>
-    </div>
-  )
+    {guildRules}
+    {raidRules}
+  </PageWithWidgets>
 }

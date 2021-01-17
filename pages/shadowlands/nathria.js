@@ -1,7 +1,5 @@
-import Head from 'next/head'
-import { Column, Columns, ItemGrid } from '@davidcraig/react-bulma'
-import Recruitment from '../../Components/Widgets/Recruitment'
-import Progress from '../../Components/Widgets/Progress'
+import { ItemGrid } from '@davidcraig/react-bulma'
+import PageWithWidgets from '../../Components/PageWithWidgets'
 import { Card, TabbedContent } from '@davidcraig/react-bulma'
 import { castleNathria } from '../../data/shadowlands/raids'
 
@@ -61,26 +59,9 @@ export default function CastleNathriaPage() {
   }
   tabbedContent.push(TLDRTactics)
 
-  return (
-    <div>
-      <Head>
-        <title>Not Safe for Azeroth</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <Columns>
-        <Column class='is-two-thirds'>
-          <main>
-            <h1 className='h1'>Castle Nathria</h1>
-            <h2 className='h2'>Videos (Fatboss)</h2>
-            <TabbedContent content={tabbedContent} />
-          </main>
-        </Column>
-        <Column>
-          <Recruitment />
-          <Progress />
-        </Column>
-      </Columns>
-    </div>
-  )
+  return <PageWithWidgets title='Castle Nathria'>
+    <h1 className='h1'>Castle Nathria</h1>
+    <h2 className='h2'>Videos (Fatboss)</h2>
+    <TabbedContent content={tabbedContent} />
+  </PageWithWidgets>
 }

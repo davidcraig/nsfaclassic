@@ -22,7 +22,7 @@ export default function WoWClassPage(props) {
   const discord = RenderDiscords(props.discord)
 
   return (
-    <Page>
+    <Page title={props.title}>
       <h1 className={`h1 fg-${props.class.css}`}>{props.class.name}</h1>
       {discord}
       {props.children}
