@@ -31,6 +31,7 @@ const wikiPages = [
   {
     name: 'Shadowlands', pages: [
       { name: 'Castle Nathria', slug: '/shadowlands/nathria' },
+      { name: 'FAQ', slug: '/shadowlands/faq' },
     ]
   }
 ]

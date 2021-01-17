@@ -25,6 +25,7 @@ export default function WoWClassPage(props) {
     <Page>
       <h1 className={`h1 fg-${props.class.css}`}>{props.class.name}</h1>
       {discord}
+      {props.children}
     </Page>
   )
 }

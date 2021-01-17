@@ -16,7 +16,7 @@ export const castleNathria = [
   },
   {
     name: "Sun King's Salvation", slug: 'cn-sunking',
-    normal: false, heroic: false, mythic: false,
+    normal: true, heroic: false, mythic: false,
     video: 'OW7pFOeJWqI', mythic_video: ''
   },
   {
