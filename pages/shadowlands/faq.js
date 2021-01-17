@@ -5,7 +5,7 @@ import PageWithWidgets from '../../Components/PageWithWidgets'
 const faq = [
   {
     q: 'How much soul ash do you get per torghast?',
-    a: <table className='table'>
+    a: <table className='table is-narrow'>
       <tbody>
         <tr><th>Layer</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th></tr>
         <tr><td>Soul Ash</td>
