@@ -1,7 +1,7 @@
 export const castleNathria = [
   {
     name: 'Shriekwing', slug: 'cn-shriekwing',
-    normal: true, heroic: false, mythic: false,
+    normal: true, heroic: true, mythic: false,
     video: '72EI8HBaTAg', mythic_video: ''
   },
   {
@@ -21,7 +21,7 @@ export const castleNathria = [
   },
   {
     name: 'Council of Blood', slug: 'cn-council',
-    normal: false, heroic: false, mythic: false,
+    normal: true, heroic: false, mythic: false,
     video: 'qer7Ys67Q8E', mythic_video: ''
   },
   {
@@ -36,12 +36,12 @@ export const castleNathria = [
   },
   {
     name: 'Sludgefist', slug: 'cn-sludgefist',
-    normal: false, heroic: false, mythic: false,
+    normal: true, heroic: false, mythic: false,
     video: 'RjdOt5FTAc0', mythic_video: ''
   },
   {
     name: 'Stone Legion Generals', slug: 'cn-generals',
-    normal: false, heroic: false, mythic: false,
+    normal: true, heroic: false, mythic: false,
     video: 'Qn4tqT7zgxk', mythic_video: ''
   },
   {
