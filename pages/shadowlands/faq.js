@@ -14,7 +14,7 @@ const faq = [
           <td>435</td>
           <td>485</td>
           <td>530</td>
-          <td>?</td>
+          <td>570</td>
         </tr>
       </tbody>
     </table>
