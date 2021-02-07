@@ -1,4 +1,5 @@
 import Page from './PageWithWidgets'
+import React from 'react'
 
 function RenderDiscord(discord) {
   return <a href={discord} target='_blank'>{discord}</a>

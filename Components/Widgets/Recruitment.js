@@ -1,3 +1,4 @@
+import React from 'react'
 import { Card } from '@davidcraig/react-bulma'
 
 const classStatuses = [

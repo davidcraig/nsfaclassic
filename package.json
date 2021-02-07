@@ -10,6 +10,10 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
     "@davidcraig/react": "^1.0.2",
     "@davidcraig/react-bulma": "^1.0.9",
     "@davidcraig/react-schema": "^1.0.1",

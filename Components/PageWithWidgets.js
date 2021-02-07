@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import React from 'react'
 import { Column, Columns } from '@davidcraig/react-bulma'
 import Recruitment from './Widgets/Recruitment'
 import Progress from './Widgets/Progress'

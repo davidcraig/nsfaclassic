@@ -1,3 +1,4 @@
+import React from 'react'
 import { Navbar, Brand, Start, End, Item, Dropdown } from '@davidcraig/react-bulma'
 
 const pages = [
