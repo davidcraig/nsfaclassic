@@ -11,6 +11,7 @@
   "devDependencies": {
     "@davidcraig/react": "^1.0.2",
     "@davidcraig/react-bulma": "^1.0.9",
+    "@davidcraig/react-schema": "^1.0.1",
     "@davidcraig/wow": "^1.0.1",
     "bulma": "^0.9.1",
     "next": "10.0.4",
