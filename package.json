@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "@davidcraig/react": "^1.0.2",
     "@davidcraig/react-bulma": "^1.0.9",
     "@davidcraig/wow": "^1.0.1",
