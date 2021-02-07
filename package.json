@@ -16,7 +16,7 @@
     "@babel/preset-react": "^7.12.13",
     "@davidcraig/react": "^1.0.2",
     "@davidcraig/react-bulma": "^1.0.9",
-    "@davidcraig/react-schema": "^1.0.1",
+    "@davidcraig/react-schema": "^1.0.4",
     "@davidcraig/wow": "^1.0.1",
     "bulma": "^0.9.1",
     "cypress": "^6.4.0",
