@@ -1,3 +1,4 @@
+import React from 'react'
 import Page from '../../Components/WoWClassPage'
 import { Druid } from '../../data/wow-classes'
 

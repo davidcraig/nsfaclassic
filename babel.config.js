@@ -12,8 +12,7 @@ if (NodeEnv == 'test') {
 
 module.exports = {
   presets: [
-    '@babel/preset-env',
-    '@babel/preset-react',
+    'next/babel'
   ],
   ignore: BabelIgnore,
   // plugins: ["react-docgen"]

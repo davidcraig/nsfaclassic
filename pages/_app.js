@@ -1,5 +1,6 @@
-import '../styles/app.scss'
+import React from 'react'
 import Navbar from '../Components/Navbar'
+import '../styles/app.scss'
 
 const wowhead = (
   <script dangerouslySetInnerHTML={{

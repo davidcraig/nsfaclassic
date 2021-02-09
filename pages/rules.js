@@ -1,3 +1,4 @@
+import React from 'react'
 import PageWithWidgets from '../Components/PageWithWidgets'
 
 const GUILD_RULES = [

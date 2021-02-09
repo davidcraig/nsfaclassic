@@ -1,3 +1,4 @@
+import React from 'react'
 import PageWithWidgets from '../Components/PageWithWidgets'
 import logs from '../data/shadowlands/logs'
 

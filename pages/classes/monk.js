@@ -1,3 +1,4 @@
+import React from 'react'
 import { Card } from '@davidcraig/react-bulma'
 import { Column, Columns } from '@davidcraig/react-bulma/dist/Columns/Columns'
 import Page from '../../Components/WoWClassPage'

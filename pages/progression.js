@@ -1,3 +1,4 @@
+import React from 'react'
 import { TabbedContent } from '@davidcraig/react-bulma'
 import Timeline from '../Components/Timeline'
 import PageWithWidgets from '../Components/PageWithWidgets'

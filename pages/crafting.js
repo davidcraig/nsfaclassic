@@ -1,3 +1,4 @@
+import React from 'react'
 import crafting from '../data/crafting'
 import PageWithWidgets from '../Components/PageWithWidgets'
 import { TabbedContent } from '@davidcraig/react-bulma'
