@@ -46,7 +46,7 @@ export const castleNathria = [
   },
   {
     name: 'Sire Denathrius', slug: 'cn-denathrius',
-    normal: false, heroic: false, mythic: false,
+    normal: true, heroic: false, mythic: false,
     video: 'gLdGXXbVOhQ', mythic_video: ''
   },
 ]
