@@ -66,7 +66,7 @@ const faq = [
         <tr>
           <td>225</td>
           <td className={ctr}>3200</td>
-          <td className={ctr}>950</td>
+          <td className={ctr}>1950</td>
           <td className={ctr}>1200</td>
           <td className={ctr}>-</td>
           <td className={ctr}>-</td>
