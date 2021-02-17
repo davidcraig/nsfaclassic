@@ -5,15 +5,13 @@
 @import 'tabs';
 
 :root {
-    --dark-mode-text: #ececec;
-    --dark-mode-bg-1: #161616;
-    --dark-mode-bg-2: #111;
-    --alliance-bg-1: #002f6d;
-    --alliance-bg-2: #001e44;
-    --alliance-alt-1: #4968aa;
-}
+  --dark-mode-text: #ececec;
+  --dark-mode-bg-1: #161616;
+  --dark-mode-bg-2: #111;
+  --alliance-bg-1: #002f6d;
+  --alliance-bg-2: #001e44;
+  --alliance-alt-1: #4968aa;
 
-html, body {
   --theme-bg: var(--alliance-bg-1);
   --theme-bg-2: var(--alliance-bg-2);
   --theme-alt-1: var(--alliance-alt-1);
@@ -57,6 +55,14 @@ html, body {
 html, body {
   background: var(--theme-bg);
   color: var(--theme-text);
+}
+
+html, body {
+  background-image: linear-gradient(to top, var(--theme-bg-2) , rgba(0, 0, 0, 0));
+}
+
+body {
+  min-height: 100vh;
 }
 
 .content {
