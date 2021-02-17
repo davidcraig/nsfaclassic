@@ -38,7 +38,7 @@ export default function ClassDruid() {
             {
               guides.resto.map(guide => {
                 return <li>
-                  {ExternalLink(guide.url, guide.name)}
+                  <ExternalLink url={guide.url} text={guide.name} />
                 </li>
               })
             }
@@ -50,7 +50,7 @@ export default function ClassDruid() {
             {
               guides.balance.map(guide => {
                 return <li>
-                  {ExternalLink(guide.url, guide.name)}
+                  <ExternalLink url={guide.url} text={guide.name} />
                 </li>
               })
             }
@@ -64,7 +64,7 @@ export default function ClassDruid() {
             {
               guides.guardian.map(guide => {
                 return <li>
-                  {ExternalLink(guide.url, guide.name)}
+                  <ExternalLink url={guide.url} text={guide.name} />
                 </li>
               })
             }
@@ -76,7 +76,7 @@ export default function ClassDruid() {
             {
               guides.feral.map(guide => {
                 return <li>
-                  {ExternalLink(guide.url, guide.name)}
+                  <ExternalLink url={guide.url} text={guide.name} />
                 </li>
               })
             }
