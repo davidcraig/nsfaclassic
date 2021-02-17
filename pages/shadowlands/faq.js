@@ -22,26 +22,52 @@ const faq = [
   },
   {
     q: 'How much soul ash to buy/upgrade legendaries?',
-    a: <table className='table is-narrow'>
-    <tbody>
-      <tr>
-        <td>190</td>
-        <td>1250</td>
-      </tr>
-      <tr>
-        <td>210</td>
-        <td>2000 [190-210: 750]</td>
-      </tr>
-      <tr>
-        <td>225</td>
-        <td>3200 [190-225: 1950], [210-225: 1200]</td>
-      </tr>
-      <tr>
-        <td>235</td>
-        <td>5150 [190-235: 3900], [210-235: 3150], [225-235: 1950]</td>
-      </tr>
-    </tbody>
-  </table>
+    a: <table className='table is-narrow is-striped'>
+      <thead>
+        <tr>
+          <td>Existing?:</td>
+          <td>0</td>
+          <td>190</td>
+          <td>210</td>
+          <td>225</td>
+          <td>235</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>190</td>
+          <td>1250</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>210</td>
+          <td>2000</td>
+          <td>750</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>225</td>
+          <td>3200</td>
+          <td>950</td>
+          <td>1200</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>235</td>
+          <td>5150</td>
+          <td>3900</td>
+          <td>3150</td>
+          <td>1950</td>
+          <td>-</td>
+        </tr>
+      </tbody>
+    </table>
   }
 ]
 
