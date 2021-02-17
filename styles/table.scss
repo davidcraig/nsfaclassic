@@ -1,4 +1,5 @@
-table, .content table {
+table,
+.content table {
   background: transparent;
 
   thead, tbody {
@@ -10,4 +11,8 @@ table, .content table {
   td, th {
     border: 0;
   }
+}
+
+.table.is-striped tbody tr:not(.is-selected):nth-child(even) {
+  background: var(--theme-bg-2);
 }

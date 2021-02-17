@@ -1,11 +1,9 @@
 import React from 'react'
 import Page from '../../Components/WoWClassPage'
-import ExternalLink from '../../Components/ExternalLink'
 import { Druid } from '../../data/wow-classes'
-import { Card, Column, Columns } from '@davidcraig/react-bulma'
 
 const guides = {
-  resto: [
+  restoration: [
     { name: 'Icy Veins', url: 'https://www.icy-veins.com/wow/restoration-druid-pve-healing-guide' },
     { name: 'Noxxic', url: 'https://www.noxxic.com/wow/restoration-druid/' },
     { name: 'Method', url: 'https://www.method.gg/guides/restoration-druid' },
@@ -29,61 +27,18 @@ const DISCORD = 'https://discord.gg/0dWu0WkuetF87H9H'
 
 export default function ClassDruid() {
   return (
-    <Page title='Druid' class={Druid} discord={DISCORD}>
-      <Columns>
-        <Column>
-          <Card title='Restoration'>
-            Guides:
-            <ul>
-            {
-              guides.resto.map(guide => {
-                return <li>
-                  <ExternalLink url={guide.url} text={guide.name} />
-                </li>
-              })
-            }
-            </ul>
-          </Card>
-          <Card title='Balance'>
-            Guides:
-            <ul>
-            {
-              guides.balance.map(guide => {
-                return <li>
-                  <ExternalLink url={guide.url} text={guide.name} />
-                </li>
-              })
-            }
-            </ul>
-          </Card>
-        </Column>
-        <Column>
-          <Card title='Guardian'>
-            Guides:
-            <ul>
-            {
-              guides.guardian.map(guide => {
-                return <li>
-                  <ExternalLink url={guide.url} text={guide.name} />
-                </li>
-              })
-            }
-            </ul>
-          </Card>
-          <Card title='Feral'>
-            Guides:
-            <ul>
-            {
-              guides.feral.map(guide => {
-                return <li>
-                  <ExternalLink url={guide.url} text={guide.name} />
-                </li>
-              })
-            }
-            </ul>
-          </Card>
-        </Column>
-      </Columns>
+    <Page
+      title='Druid'
+      class={Druid}
+      discord={DISCORD}
+      guides={guides}
+      specs={[
+        { name: 'Guardian', key: 'guardian' },
+        { name: 'Restoration', key: 'restoration' },
+        { name: 'Balance', key: 'balance' },
+        { name: 'Feral', key: 'feral' },
+      ]}
+    >
     </Page>
   )
 }

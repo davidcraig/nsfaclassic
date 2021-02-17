@@ -7,6 +7,7 @@ import Progress from './Widgets/Progress'
 function PageWithWidgets(props) {
   let title = 'Not Safe for Azeroth'
   if (props.title) { title += ' | ' + props.title }
+  const pageClass = props.className ? props.className : ''
 
   return (
     <div>
@@ -17,7 +18,7 @@ function PageWithWidgets(props) {
 
       <Columns>
         <Column class='is-two-thirds'>
-          <main>
+          <main className={pageClass}>
             {props.children}
           </main>
         </Column>

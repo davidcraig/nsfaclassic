@@ -1,0 +1,37 @@
+/* Class Coloured Tabs */
+
+.mage .tabs { --tab-colour: var(--wow-class-mage); }
+.priest .tabs { --tab-colour: var(--wow-class-priest); }
+.warlock .tabs { --tab-colour: var(--wow-class-warlock); }
+.druid .tabs { --tab-colour: var(--wow-class-druid); }
+.rogue .tabs { --tab-colour: var(--wow-class-rogue); }
+.monk .tabs { --tab-colour: var(--wow-class-monk); }
+.demonhunter .tabs { --tab-colour: var(--wow-class-demonhunter); }
+.hunter .tabs { --tab-colour: var(--wow-class-hunter); }
+.shaman .tabs { --tab-colour: var(--wow-class-shaman); }
+.warrior .tabs { --tab-colour: var(--wow-class-warrior); }
+.deathknight .tabs { --tab-colour: var(--wow-class-deathknight); }
+.paladin .tabs { --tab-colour: var(--wow-class-paladin); }
+
+.tabs a {
+  color: var(--theme-alt-1);
+}
+
+.tabs ul {
+  border-bottom: 0;
+}
+
+.tabs .is-active {
+  padding: 2px 6px;
+  // border: 2px solid var(--tab-colour);
+  border-bottom: 1px solid var(--tab-colour);
+  color: var(--tab-colour);
+}
+
+.tabs li a:hover {
+  color: var(--alliance-alt-1);
+}
+
+.tabs li a {
+  color: #ececec;
+}
