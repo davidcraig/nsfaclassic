@@ -1,5 +1,6 @@
-/* Class Coloured Tabs */
+.tabs { --tab-colour: var(--theme-alt-1); }
 
+/* Class Coloured Tabs */
 .mage .tabs { --tab-colour: var(--wow-class-mage); }
 .priest .tabs { --tab-colour: var(--wow-class-priest); }
 .warlock .tabs { --tab-colour: var(--wow-class-warlock); }
