@@ -6,8 +6,8 @@ import { TabbedContent } from '@davidcraig/react-bulma'
 function RenderProfessionTabs() {
   const content = [
     { title: 'Tailoring', content: RenderLegendaries('tailoring') },
-    { title: 'Blacksmithing', content: RenderLegendaries('blacksmithing') },
     { title: 'Leatherworking', content: RenderLegendaries('leatherworking') },
+    { title: 'Blacksmithing', content: RenderLegendaries('blacksmithing') },
     { title: 'Jewelcrafting', content: RenderLegendaries('jewelcrafting') },
   ]
 
