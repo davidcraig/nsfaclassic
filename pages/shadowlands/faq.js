@@ -1,21 +1,34 @@
 import React from 'react'
 import PageWithWidgets from '../../Components/PageWithWidgets'
 
+const ctr = 'has-text-centered'
+
 const faq = [
   {
     q: 'How much soul ash do you get per torghast?',
-    a: <table className='table is-narrow'>
+    a: <table className='table is-narrow is-striped-columns'>
       <tbody>
-        <tr><th>Layer</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th></tr>
-        <tr><td>Soul Ash</td>
-          <td>120</td>
-          <td>220</td>
-          <td>305</td>
-          <td>375</td>
-          <td>435</td>
-          <td>485</td>
-          <td>530</td>
-          <td>570</td>
+        <tr>
+          <th>Layer</th>
+          <th className={ctr}>1</th>
+          <th className={ctr}>2</th>
+          <th className={ctr}>3</th>
+          <th className={ctr}>4</th>
+          <th className={ctr}>5</th>
+          <th className={ctr}>6</th>
+          <th className={ctr}>7</th>
+          <th className={ctr}>8</th>
+        </tr>
+        <tr>
+          <td>Soul Ash</td>
+          <td className={ctr}>120</td>
+          <td className={ctr}>220</td>
+          <td className={ctr}>305</td>
+          <td className={ctr}>375</td>
+          <td className={ctr}>435</td>
+          <td className={ctr}>485</td>
+          <td className={ctr}>530</td>
+          <td className={ctr}>570</td>
         </tr>
       </tbody>
     </table>
@@ -26,45 +39,45 @@ const faq = [
       <thead>
         <tr>
           <td>Existing?:</td>
-          <td>0</td>
-          <td>190</td>
-          <td>210</td>
-          <td>225</td>
-          <td>235</td>
+          <td className={ctr}>0</td>
+          <td className={ctr}>190</td>
+          <td className={ctr}>210</td>
+          <td className={ctr}>225</td>
+          <td className={ctr}>235</td>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>190</td>
-          <td>1250</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
+          <td className={ctr}>1250</td>
+          <td className={ctr}>-</td>
+          <td className={ctr}>-</td>
+          <td className={ctr}>-</td>
+          <td className={ctr}>-</td>
         </tr>
         <tr>
           <td>210</td>
-          <td>2000</td>
-          <td>750</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
+          <td className={ctr}>2000</td>
+          <td className={ctr}>750</td>
+          <td className={ctr}>-</td>
+          <td className={ctr}>-</td>
+          <td className={ctr}>-</td>
         </tr>
         <tr>
           <td>225</td>
-          <td>3200</td>
-          <td>950</td>
-          <td>1200</td>
-          <td>-</td>
-          <td>-</td>
+          <td className={ctr}>3200</td>
+          <td className={ctr}>950</td>
+          <td className={ctr}>1200</td>
+          <td className={ctr}>-</td>
+          <td className={ctr}>-</td>
         </tr>
         <tr>
           <td>235</td>
-          <td>5150</td>
-          <td>3900</td>
-          <td>3150</td>
-          <td>1950</td>
-          <td>-</td>
+          <td className={ctr}>5150</td>
+          <td className={ctr}>3900</td>
+          <td className={ctr}>3150</td>
+          <td className={ctr}>1950</td>
+          <td className={ctr}>-</td>
         </tr>
       </tbody>
     </table>

@@ -170,4 +170,10 @@ a.spell {
   background-color: var(--alliance-bg-2);
   border-radius: 8px;
   padding: 4px;
+
+  table.is-striped-columns tbody {
+    & td:nth-child(even), & th:nth-child(even) {
+      background-color: var(--alliance-bg-1);
+    }
+  }
 }
