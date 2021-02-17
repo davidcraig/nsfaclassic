@@ -160,3 +160,14 @@ html, body {
 a.spell {
   color: yellow;
 }
+
+.question {
+  margin-bottom: 0.25rem !important;
+  margin-top: 1rem;
+}
+
+.answer {
+  background-color: var(--alliance-bg-2);
+  border-radius: 8px;
+  padding: 4px;
+}

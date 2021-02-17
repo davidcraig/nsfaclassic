@@ -53,7 +53,9 @@ export default function FAQPage() {
         return (
           <>
           <p className='question'>{qa.q}</p>
-          {qa.a}
+          <div className='answer'>
+            {qa.a}
+          </div>
           </>
         )
       })
