@@ -35,7 +35,7 @@ const faq = [
   },
   {
     q: 'How much soul ash to buy/upgrade legendaries?',
-    a: <table className='table is-narrow is-striped'>
+    a: <table className='table is-narrow is-striped-columns'>
       <thead>
         <tr>
           <td>Existing?:</td>

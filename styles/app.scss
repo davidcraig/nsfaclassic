@@ -171,9 +171,11 @@ a.spell {
   border-radius: 8px;
   padding: 4px;
 
-  table.is-striped-columns tbody {
-    & td:nth-child(even), & th:nth-child(even) {
-      background-color: var(--alliance-bg-1);
+  table.is-striped-columns {
+    tbody, thead {
+      & td:nth-child(even), & th:nth-child(even) {
+        background-color: var(--alliance-bg-1) !important;
+      }
     }
   }
 }
