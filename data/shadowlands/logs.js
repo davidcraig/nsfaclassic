@@ -2,6 +2,8 @@ import m1_d1_y21_n from './logs/nathria/normal/jan1_2021'
 import m1_d6_y21_n from './logs/nathria/normal/jan6_2021'
 import m1_d8_y21_n from './logs/nathria/normal/jan8_2021'
 import m1_d13_y21_n from './logs/nathria/normal/jan13_2021'
+import m1_d15_y21_hc from './logs/nathria/heroic/jan15_2021'
+import m1_d15_y21_n from './logs/nathria/normal/jan15_2021'
 
 class CombatLog {
   constructor(props) {
@@ -21,60 +23,52 @@ class CombatLog {
   wf() { return `https://www.wipefest.gg/report/${this.id}` }
 }
 
-const NATHRIA = 'Castle Nathria'
-const NORMAL = 'N'
-const HEROIC = 'HC'
-
-const log_jan_1_21_n = new CombatLog(m1_d1_y21_n)
-const log_jan_6_21_n = new CombatLog(m1_d6_y21_n)
-const log_jan_8_21_n = new CombatLog(m1_d8_y21_n)
-const log_jan_13_21_n = new CombatLog(m1_d13_y21_n)
+const logs = {
+  2021: {
+    nathria: {
+      normal: {
+        jan1: new CombatLog(m1_d1_y21_n),
+        jan6: new CombatLog(m1_d6_y21_n),
+        jan8: new CombatLog(m1_d8_y21_n),
+        jan13: new CombatLog(m1_d13_y21_n),
+        jan15: new CombatLog(m1_d15_y21_n)
+      },
+      heroic: {
+        jan15: new CombatLog(m1_d15_y21_hc)
+      }
+    }
+  }
+}
 
 export const CombatLogs = [
-  log_jan_1_21_n,
-  log_jan_6_21_n,
-  log_jan_8_21_n,
-  log_jan_13_21_n,
-
-  new CombatLog({
-    date: '2021-01-15',
-    dateHuman: '15 Jan 21',
-    id: '7bDHWGJwQcpMAg6h',
-    raid: {
-      zone: NATHRIA,
-      difficulty: HEROIC
-    },
-    kills: 0,
-    pulls: 3,
-  }),
-
-  new CombatLog({
-    date: '2021-01-15',
-    dateHuman: '15 Jan 21',
-    id: 'GKN4vhkxBwrQ3TPD',
-    raid: {
-      zone: NATHRIA,
-      difficulty: NORMAL
-    },
-    kills: 2,
-    pulls: 6,
-    progression: '6 / 10 N'
-  }),
+  logs[2021].nathria.normal.jan1,
+  logs[2021].nathria.normal.jan6,
+  logs[2021].nathria.normal.jan8,
+  logs[2021].nathria.normal.jan13,
+  logs[2021].nathria.heroic.jan15,
+  logs[2021].nathria.normal.jan15,
 ]
 
 export const Logs_Nathria_Normal = [
-  log_jan_1_21_n,
-  log_jan_6_21_n,
-  log_jan_8_21_n,
-  log_jan_13_21_n,
+  logs[2021].nathria.normal.jan1,
+  logs[2021].nathria.normal.jan6,
+  logs[2021].nathria.normal.jan8,
+  logs[2021].nathria.normal.jan13,
+  logs[2021].nathria.normal.jan15,
 ]
 
 export const Logs_Nathria_Heroic = [
-
+  logs[2021].nathria.heroic.jan15,
 ]
 
+// TODO: Create this list programatically 
 export const Logs_Nathria_LastTen = [
-
+  logs[2021].nathria.normal.jan1,
+  logs[2021].nathria.normal.jan6,
+  logs[2021].nathria.normal.jan8,
+  logs[2021].nathria.normal.jan13,
+  logs[2021].nathria.heroic.jan15,
+  logs[2021].nathria.normal.jan15,
 ]
 
 export default CombatLogs
