@@ -9,7 +9,7 @@ const ELENTORIA = findByName('Elentoria')
 
 export default {
   date: '2021-01-01',
-  dateHuman: 'Jan 01 21',
+  dateHuman: '1 Jan 21',
   id: 'k6wLJjP9gtyTvGHb',
   tags: ['progression'],
   raid: {

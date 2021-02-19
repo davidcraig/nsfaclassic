@@ -5,14 +5,13 @@ const CHOPSTICKDIK = findByName('Chopstickdik')
 const DREAMCROW = findByName('Dreamcrow')
 const HARLOTT = findByName('Harlott')
 const DRAKULTH = findByName('Drakulth')
-const ELENTORIA = findByName('Elentoria')
 const ARONIN = findByName('Aronín')
 const CARES_MONK = findByName('Càres')
 const SKJALD = findByName('Skjaldmeyjar')
 
 export default {
   date: '2021-01-06',
-  dateHuman: 'Jan 06 21',
+  dateHuman: '6 Jan 21',
   tags: ['progression'],
   id: '3jd1DaghXc9JV4x7',
   raid: {
