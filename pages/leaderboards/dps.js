@@ -32,10 +32,6 @@ function getLeaderboardValues(logs) {
         }
 
         if (detail.dps > leaderboards.dps[character].dps) {
-          if (character == 'Drakulth') {
-            console.log('detail dps: ', detail.dps)
-            console.log(leaderboards.dps[character].dps)
-          }
           leaderboards.dps[character].dps = detail.dps
         }
       })
@@ -58,10 +54,6 @@ function getLeaderboardValues(logs) {
   Object.keys(leaderboards).map(type => {
     const data = leaderboards[type]
     Object.keys(data).map(char => {
-      console.log(char)
-      if (char == 'Drakulth') {
-        console.log(leaderboards[type][char])
-      }
       output[type].push({
         character: char,
         dps: leaderboards[type][char].dps, css: leaderboards[type][char].css
