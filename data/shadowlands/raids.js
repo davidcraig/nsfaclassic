@@ -6,7 +6,7 @@ export const castleNathria = [
   },
   {
     name: 'Huntsman Altimor', slug: 'cn-altimor',
-    normal: true, heroic: false, mythic: false,
+    normal: true, heroic: true, mythic: false,
     video: 'b5CDD6c_Itw', mythic_video: ''
   },
   {
@@ -26,7 +26,7 @@ export const castleNathria = [
   },
   {
     name: 'Hungering Destroyer', slug: 'cn-hungering',
-    normal: true, heroic: false, mythic: false,
+    normal: true, heroic: true, mythic: false,
     video: 'IhKeirCeeRo', mythic_video: ''
   },
   {
