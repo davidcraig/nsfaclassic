@@ -1,9 +1,10 @@
 import React from 'react'
 import { Card } from '@davidcraig/react-bulma'
-import { castleNathria } from '../../data/shadowlands/raids'
+// import { castleNathria } from '../../data/shadowlands/raids'
 
 function getCurrentRaidTier() {
-  return castleNathria
+  // moltenCore
+  return []
 }
 
 function getStatus (progression) {

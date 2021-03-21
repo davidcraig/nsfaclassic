@@ -29,9 +29,9 @@ const wikiPages = [
     ]
   },
   {
-    name: 'Shadowlands', pages: [
-      { name: 'Castle Nathria', slug: '/shadowlands/nathria' },
-      { name: 'FAQ', slug: '/shadowlands/faq' },
+    name: 'Classic', pages: [
+      // { name: 'Castle Nathria', slug: '/shadowlands/nathria' },
+      // { name: 'FAQ', slug: '/shadowlands/faq' },
     ]
   }
 ]
@@ -64,16 +64,16 @@ export default function Navigation() {
         {wikiPages.map(page => {
           return renderNavigationItem(page)
         })}
-        <Item
+        {/* <Item
           href='https://raider.io/guilds/eu/silvermoon/Not%20Safe%20for%20Azeroth'
           title='Raider.IO'
           target='_blank'
-        />
-        <Item
+        /> */}
+        {/* <Item
           href='https://www.wowprogress.com/guild/eu/silvermoon/Not+Safe+for+Azeroth'
           title='WoWProgress'
           target='_blank'
-        />
+        /> */}
       </End>
     </Navbar>
   )
