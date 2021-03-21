@@ -32,7 +32,16 @@ const officers = [
     rank: 'Officer',
     bio: '',
     main: {
-      class: wowClasses.Priest
+      class: wowClasses.Rogue
+    }
+  },
+  {
+    real: 'Shaggy',
+    alias: '',
+    rank: 'Officer',
+    bio: '',
+    main: {
+      class: wowClasses.Paladin
     }
   },
 ]
