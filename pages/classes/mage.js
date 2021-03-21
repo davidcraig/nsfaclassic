@@ -8,13 +8,10 @@ const guides = {
   frost: [],
 }
 
-const DISCORD = 'https://discord.gg/WzYCnbg'
-
 export default function ClassMage() {
   const props = {
     title: 'Mage',
     class: Mage,
-    discord: DISCORD,
     guides: guides,
     specs: [
       { name: 'Arcane', key: 'arcane' },

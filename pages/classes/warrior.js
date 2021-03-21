@@ -8,13 +8,10 @@ const guides = {
   protection: [],
 }
 
-const DISCORD = 'https://discord.gg/Skyhold'
-
 export default function ClassWarrior() {
   const props = {
     title: 'Warior',
     class: Warrior,
-    discord: DISCORD,
     guides: guides,
     specs: [
       { name: 'Arms', key: 'arms' },

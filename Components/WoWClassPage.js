@@ -20,6 +20,9 @@ function RenderDiscords(discord) {
 }
 
 export function renderClassGuides(guides) {
+  if (!guides) {
+    return false
+  }
   return (
     <ul>
       {

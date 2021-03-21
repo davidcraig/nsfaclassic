@@ -8,13 +8,10 @@ const guides = {
   demonology: [],
 }
 
-const DISCORD = 'https://discord.gg/0onXDymd9Wpc2CEu'
-
 export default function ClassWarlock() {
   const props = {
     title: 'Warlock',
     class: Warlock,
-    discord: DISCORD,
     guides: guides,
     specs: [
       { name: 'Affliction', key: 'affliction' },

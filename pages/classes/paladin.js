@@ -8,13 +8,10 @@ const guides = {
   retribution: [],
 }
 
-const DISCORD = 'https://discord.gg/hammerofwrath'
-
 export default function ClassPaladin() {
   const props = {
     title: 'Paladin',
     class: Paladin,
-    discord: DISCORD,
     guides: guides,
     specs: [
       { name: 'Holy', key: 'holy' },

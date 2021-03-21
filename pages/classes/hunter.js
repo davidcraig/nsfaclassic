@@ -8,14 +8,11 @@ const guides = {
   marksmanship: [],
 }
 
-const DISCORD = ['https://discord.gg/yqer4BX', 'https://discord.gg/G3tYdTG']
-
 export default function ClassHunter() {
   return (
     <Page
       title='Hunter'
       class={Hunter}
-      discord={DISCORD}
       guides={guides}
       specs={[
         { name: 'Beast Master', key: 'beastmaster' },

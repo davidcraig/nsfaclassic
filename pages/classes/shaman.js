@@ -8,13 +8,10 @@ const guides = {
   elemental: [],
 }
 
-const DISCORD = ['https://discord.gg/0VcupJEQX0HuE5HH', 'https://discord.gg/AcTek6e']
-
 export default function ClassShaman() {
   const props = {
     title: 'Shaman',
     class: Shaman,
-    discord: DISCORD,
     guides: guides,
     specs: [
       { name: 'Restoration', key: 'restoration' },
