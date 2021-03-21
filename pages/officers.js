@@ -13,7 +13,7 @@ const officers = [
     main: {
       class: wowClasses.Hunter,
       roles: ['DPS'],
-      name: "Sniperdrood"
+      name: "Snipershoots"
     }
   },
   {
