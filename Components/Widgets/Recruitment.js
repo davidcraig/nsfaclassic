@@ -7,13 +7,10 @@ const classStatuses = [
   { name: 'Warlock',      status: 'Open', css: 'fg-warlock' },
   { name: 'Druid',        status: 'Open', css: 'fg-druid' },
   { name: 'Rogue',        status: 'Open', css: 'fg-rogue' },
-  { name: 'Demon Hunter', status: 'Open', css: 'fg-demonhunter' },
-  { name: 'Monk',         status: 'Open', css: 'fg-monk' },
   { name: 'Hunter',       status: 'Open', css: 'fg-hunter' },
   { name: 'Shaman',       status: 'Open', css: 'fg-shaman' },
   { name: 'Paladin',      status: 'Open', css: 'fg-paladin' },
   { name: 'Warrior',      status: 'Open', css: 'fg-warrior' },
-  { name: 'Death Knight', status: 'Open', css: 'fg-deathknight' },
 ]
 
 function getStatusClass (classStatus) {
