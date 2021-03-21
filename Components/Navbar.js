@@ -19,13 +19,10 @@ const wikiPages = [
       { name: 'Warlock', slug: '/classes/warlock', wowClassColour: true },
       { name: 'Druid', slug: '/classes/druid', wowClassColour: true },
       { name: 'Rogue', slug: '/classes/rogue', wowClassColour: true },
-      { name: 'Monk', slug: '/classes/monk', wowClassColour: true },
-      { name: 'Demon Hunter', slug: '/classes/demonhunter', wowClassColour: true },
       { name: 'Hunter', slug: '/classes/hunter', wowClassColour: true },
       { name: 'Shaman', slug: '/classes/shaman', wowClassColour: true },
       { name: 'Warrior', slug: '/classes/warrior', wowClassColour: true },
       { name: 'Paladin', slug: '/classes/paladin', wowClassColour: true },
-      { name: 'Death Knight', slug: '/classes/deathknight', wowClassColour: true }
     ]
   },
   {
