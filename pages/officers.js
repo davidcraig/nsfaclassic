@@ -11,27 +11,19 @@ const officers = [
     rank: 'Fuhrer',
     bio: '',
     main: {
-      class: wowClasses.Druid,
-      roles: ['Tank', 'DPS', 'Healer'],
+      class: wowClasses.Hunter,
+      roles: ['DPS'],
       name: "Sniperdrood"
     }
   },
   {
     real: 'Chris',
-    alias: 'Sonofalich / Holyfunbags',
+    alias: 'Tripód',
     rank: 'Officer',
     bio: '',
     main: {
-      class: wowClasses.DeathKnight
-    }
-  },
-  {
-    real: 'Rob',
-    alias: 'Chopstick',
-    rank: 'Officer',
-    bio: '',
-    main: {
-      class: wowClasses.Hunter
+      class: wowClasses.Mage,
+      roles: ['DPS'],
     }
   },
   {
@@ -41,15 +33,6 @@ const officers = [
     bio: '',
     main: {
       class: wowClasses.Priest
-    }
-  },
-  {
-    real: 'Jim',
-    alias: 'Drakulth',
-    rank: 'Officer',
-    bio: '',
-    main: {
-      class: wowClasses.DeathKnight
     }
   },
 ]
