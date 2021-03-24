@@ -26,8 +26,7 @@ export default function ClassPriest() {
       <Disqus page={{
         title: 'Priest',
         slug: 'priest',
-        //url: 'https://nsfa-classic.netlify.app/classes/priest'
-        url: 'http://localhost:3000/classes/priest'
+        url: 'https://nsfa-classic.netlify.app/classes/priest'
       }}
       />
     </Page>
