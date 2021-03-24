@@ -1,6 +1,7 @@
 import React from 'react'
 import Page from '../../Components/WoWClassPage'
 import { Priest } from '../../data/wow-classes'
+import Disqus from '../../Components/Disqus'
 
 const guides = {
   holy: [],
@@ -21,6 +22,14 @@ export default function ClassPriest() {
   }
 
   return (
-    <Page { ...props }></Page>
+    <Page { ...props }>
+      <Disqus page={{
+        title: 'Priest',
+        slug: 'priest',
+        //url: 'https://nsfa-classic.netlify.app/classes/priest'
+        url: 'http://localhost:3000/classes/priest'
+      }}
+      />
+    </Page>
   )
 }
