@@ -9,7 +9,7 @@ export default function Home() {
     <Organization
       name='Not Safe for Azeroth'
       description='A World of Warcraft guild on Mirage Raceway (EU).'
-      url='https://nsfaclassic.netlify.app/'
+      url='https://nsfa-classic.netlify.app/'
     />
   </PageWithWidgets>
 }

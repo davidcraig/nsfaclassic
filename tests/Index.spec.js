@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer'
 
 test('Home page includes json-ld', () => {
   const guildName = 'Not Safe for Azeroth'
-  const guildUrl = 'https://nsfaclassic.netlify.app/'
+  const guildUrl = 'https://nsfa-classic.netlify.app/'
   const Renderer = renderer.create(
     <Index />
   )
