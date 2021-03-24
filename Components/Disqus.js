@@ -1,6 +1,7 @@
 import { DiscussionEmbed } from "disqus-react"
 
 const DisqusComments = ({ page }) => {
+  const shortname = "nsfaclassic"
   const disqusConfig = {
     url: page.url,
     identifier: page.slug, // Page slug
@@ -10,7 +11,7 @@ const DisqusComments = ({ page }) => {
   return (
     <div>
       <DiscussionEmbed
-        shortname={"nsfaclassic"}
+        shortname={shortname}
         config={disqusConfig}
       />
     </div>
