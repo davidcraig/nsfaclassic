@@ -5,7 +5,8 @@ const DisqusComments = ({ page }) => {
   const disqusConfig = {
     url: page.url,
     identifier: page.slug, // Page slug
-    title: page.title // Page title
+    title: page.title, // Page title
+    language: 'en_GB'
   }
 
   return (
