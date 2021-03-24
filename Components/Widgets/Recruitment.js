@@ -2,15 +2,15 @@ import React from 'react'
 import { Card } from '@davidcraig/react-bulma'
 
 const classStatuses = [
-  { name: 'Priest',       status: 'Open', css: 'fg-priest' },
-  { name: 'Mage',         status: 'Open', css: 'fg-mage' },
-  { name: 'Warlock',      status: 'Open', css: 'fg-warlock' },
-  { name: 'Druid',        status: 'Open', css: 'fg-druid' },
-  { name: 'Rogue',        status: 'Open', css: 'fg-rogue' },
-  { name: 'Hunter',       status: 'Open', css: 'fg-hunter' },
-  { name: 'Shaman',       status: 'Open', css: 'fg-shaman' },
-  { name: 'Paladin',      status: 'Open', css: 'fg-paladin' },
-  { name: 'Warrior',      status: 'Open', css: 'fg-warrior' },
+  { name: 'Priest',  status: 'Open', css: 'fg-priest' },
+  { name: 'Mage',    status: 'Open', css: 'fg-mage' },
+  { name: 'Warlock', status: 'Open', css: 'fg-warlock' },
+  { name: 'Druid',   status: 'Open', css: 'fg-druid' },
+  { name: 'Rogue',   status: 'Open', css: 'fg-rogue' },
+  { name: 'Hunter',  status: 'Open', css: 'fg-hunter' },
+  { name: 'Shaman',  status: 'Open', css: 'fg-shaman' },
+  { name: 'Paladin', status: 'Open', css: 'fg-paladin' },
+  { name: 'Warrior', status: 'Open', css: 'fg-warrior' },
 ]
 
 function getStatusClass (classStatus) {
