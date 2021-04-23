@@ -44,7 +44,6 @@ export default {
         new Tooltip.group([
           new Tooltip.line('(2) Set : Reduces the cooldown on your traps by 4 sec.'),
           new Tooltip.line('(4) Set : Each time you use your Kill Command ability, your attacks ignore 600 of your victim\'s armor for 15 sec.'),
-          new Tooltip.line('Sell Price: 3 89 40'),
         ]),
 
         new Tooltip.line('Source: The Mechanar - Mechano-Lord Capacitus', { className: 'tooltip-space' }),
