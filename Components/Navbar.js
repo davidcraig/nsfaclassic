@@ -12,23 +12,24 @@ const pages = [
 ]
 
 const wikiPages = [
-  {
-    name: 'Classes', pages: [
-      { name: 'Priest', slug: '/classes/priest', wowClassColour: true },
-      { name: 'Mage', slug: '/classes/mage', wowClassColour: true },
-      { name: 'Warlock', slug: '/classes/warlock', wowClassColour: true },
-      { name: 'Druid', slug: '/classes/druid', wowClassColour: true },
-      { name: 'Rogue', slug: '/classes/rogue', wowClassColour: true },
-      { name: 'Hunter', slug: '/classes/hunter', wowClassColour: true },
-      { name: 'Shaman', slug: '/classes/shaman', wowClassColour: true },
-      { name: 'Warrior', slug: '/classes/warrior', wowClassColour: true },
-      { name: 'Paladin', slug: '/classes/paladin', wowClassColour: true },
-    ]
-  },
+  
   {
     name: 'Classic', pages: [
       // { name: 'Castle Nathria', slug: '/shadowlands/nathria' },
       // { name: 'FAQ', slug: '/shadowlands/faq' },
+      {
+        name: 'Classes', pages: [
+          { name: 'Priest', slug: '/classic/classes/priest', wowClassColour: true },
+          { name: 'Mage', slug: '/classic/classes/mage', wowClassColour: true },
+          { name: 'Warlock', slug: '/classic/classes/warlock', wowClassColour: true },
+          { name: 'Druid', slug: '/classic/classes/druid', wowClassColour: true },
+          { name: 'Rogue', slug: '/classic/classes/rogue', wowClassColour: true },
+          { name: 'Hunter', slug: '/classic/classes/hunter', wowClassColour: true },
+          { name: 'Shaman', slug: '/classic/classes/shaman', wowClassColour: true },
+          { name: 'Warrior', slug: '/classic/classes/warrior', wowClassColour: true },
+          { name: 'Paladin', slug: '/classic/classes/paladin', wowClassColour: true },
+        ]
+      },
     ]
   }
 ]

@@ -1,7 +1,7 @@
 import React from 'react'
-import Page from '../../Components/WoWClassPage'
-import { Priest } from '../../data/wow-classes'
-import Disqus from '../../Components/Disqus'
+import Page from '../../../Components/WoWClassPage'
+import { Priest } from '../../../data/wow-classes'
+import Disqus from '../../../Components/Disqus'
 
 const guides = {
   holy: [],
