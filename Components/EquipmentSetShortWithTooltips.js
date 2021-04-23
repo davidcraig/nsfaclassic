@@ -13,7 +13,7 @@ function renderSetPiece(item) {
       />
       <div className={`item-tooltip border-${item.quality}`} style={{display: tooltipVisible ? 'block' : 'none' }}>
         {item.tooltip.map(line => {
-          return <p>{line}</p>
+          return line.toString()
         })}
       </div>
     </>
