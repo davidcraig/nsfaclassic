@@ -216,3 +216,22 @@ a.spell {
 .tooltip-text-yellow { color: #ffd100 !important; }
 .tooltip-text-grey { color: #9d9d9d !important; }
 .tooltip-text-green { color: #1eff00 !important; }
+
+.socket-red,
+.socket-meta,
+.socket-blue,
+.socket-yellow
+{
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 0.2rem;
+  }
+}
+
+.socket-red { &::before { background: url('/img/wow/socket-red.gif') no-repeat; } }
+.socket-yellow { &::before { background: url('/img/wow/socket-yellow.gif') no-repeat; } }
+.socket-blue { &::before { background: url('/img/wow/socket-blue.gif') no-repeat; } }
+.socket-meta { &::before { background: url('/img/wow/socket-meta.gif') no-repeat; } }

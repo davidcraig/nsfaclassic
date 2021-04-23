@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 function renderSetPiece(item) {
-  const [tooltipVisible, setTooltipVisible] = useState(true)
+  const [tooltipVisible, setTooltipVisible] = useState(false)
 
   return (
     <>

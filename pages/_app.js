@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Navbar />
-      {wowhead}
+      {/* {wowhead} */}
       <div className='container'>
         <div className='content'>
           <Component {...pageProps} />
