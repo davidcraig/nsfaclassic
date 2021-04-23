@@ -15,8 +15,7 @@ const wikiPages = [
   
   {
     name: 'Classic', pages: [
-      // { name: 'Castle Nathria', slug: '/shadowlands/nathria' },
-      // { name: 'FAQ', slug: '/shadowlands/faq' },
+      // { name: 'FAQ', slug: '/classic/faq' },
       {
         name: 'Classes', pages: [
           { name: 'Priest', slug: '/classic/classes/priest', wowClassColour: true },
@@ -28,6 +27,24 @@ const wikiPages = [
           { name: 'Shaman', slug: '/classic/classes/shaman', wowClassColour: true },
           { name: 'Warrior', slug: '/classic/classes/warrior', wowClassColour: true },
           { name: 'Paladin', slug: '/classic/classes/paladin', wowClassColour: true },
+        ]
+      },
+    ]
+  },
+  {
+    name: 'TBC', pages: [
+      // { name: 'FAQ', slug: '/tbc/faq' },
+      {
+        name: 'Classes', pages: [
+          { name: 'Priest', slug: '/tbc/classes/priest', wowClassColour: true },
+          { name: 'Mage', slug: '/tbc/classes/mage', wowClassColour: true },
+          { name: 'Warlock', slug: '/tbc/classes/warlock', wowClassColour: true },
+          { name: 'Druid', slug: '/tbc/classes/druid', wowClassColour: true },
+          { name: 'Rogue', slug: '/tbc/classes/rogue', wowClassColour: true },
+          { name: 'Hunter', slug: '/tbc/classes/hunter', wowClassColour: true },
+          { name: 'Shaman', slug: '/tbc/classes/shaman', wowClassColour: true },
+          { name: 'Warrior', slug: '/tbc/classes/warrior', wowClassColour: true },
+          { name: 'Paladin', slug: '/tbc/classes/paladin', wowClassColour: true },
         ]
       },
     ]

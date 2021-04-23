@@ -185,3 +185,28 @@ a.spell {
     }
   }
 }
+
+.border-rare {--border-colour: #0070dd;}
+.border-epic {--border-colour: #a335ee;}
+
+.border-rare,
+.border-epic {
+  border: 2px solid var(--border-colour);
+}
+
+.item-tooltip {
+  font-size: 0.8rem;
+  position: absolute;
+  right: 80px;
+  top: 80px;
+  max-width: 400px;
+  background-color: var(--alliance-bg-2);
+  border: 2px solid var(--border-colour);
+  z-index: 1000;
+  padding: 1rem;
+
+  p {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
