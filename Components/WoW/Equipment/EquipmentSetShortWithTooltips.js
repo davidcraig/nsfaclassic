@@ -2,6 +2,13 @@ import React, { useState } from 'react'
 
 function renderSetPiece(item) {
   const [tooltipVisible, setTooltipVisible] = useState(false)
+  if (
+    !item.hasOwnProperty('tooltip') ||
+    !item.hasOwnProperty('quality') ||
+    !item.hasOwnProperty('icon')
+  ) {
+    return ''
+  }
 
   return (
     <>
@@ -21,9 +28,13 @@ function renderSetPiece(item) {
 }
 
 export default function EquipmentSetShortWithTooltips({ set }) {
-  return set.map(setpiece => {
-    return (
-      renderSetPiece(setpiece)
-    )
-  })
+  return <div className='equipment-set-short'>
+  {
+    set.map(setpiece => {
+      return (
+        renderSetPiece(setpiece)
+      )
+    })
+  }
+  </div>
 }
