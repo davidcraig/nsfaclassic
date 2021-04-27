@@ -3,14 +3,16 @@ import Page from '../../../Components/WoWClassPage'
 import { Druid } from '../../../data/wow-classes'
 
 const guides = {
-  restoration: [
-  ],
-  balance: [
-  ],
+  // restoration: [
+  // ],
+  // balance: [
+  // ],
   feral: [
-  ],
-  guardian: [
-  ],
+    {
+      url: 'https://www.youtube.com/watch?v=uh4qIVbt9UA',
+      name: 'Classic TBC Feral Tank Guide'
+    }
+  ]
 }
 
 export default function ClassDruid() {
@@ -20,10 +22,9 @@ export default function ClassDruid() {
       class={Druid}
       guides={guides}
       specs={[
-        { name: 'Guardian', key: 'guardian' },
-        { name: 'Restoration', key: 'restoration' },
-        { name: 'Balance', key: 'balance' },
+        // { name: 'Balance', key: 'balance' },
         { name: 'Feral', key: 'feral' },
+        // { name: 'Restoration', key: 'restoration' },
       ]}
     >
     </Page>
